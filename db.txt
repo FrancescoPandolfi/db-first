@@ -1,0 +1,25 @@
+
+
+Negozio auto usate
+
+id  -  int  -  PRIMARY_KEY  -  AUTO_INCREMENT  -  UNIQUE
+
+Marca  -  str  -  VARCHAR(50)  -  NOTNULL
+
+Modello -  str  -  VARCHAR(50)  -  NOTNULL
+
+Chilometri  -  int  -  MEDIUMINT  -  NOTNULL
+
+Potenza  -  int  -  SMALL
+
+Immatricolazione  -  date  - YEAR  -  NOTNULL
+
+Carburante  -  str  -  VARCHAR(20)
+
+Posti  -  int  -  TINYINT
+
+Colore  -  str  VARCHAR(20)  -  NOTNULL
+
+Descrizione  -  str  -  TEXT
+
+Prezzo  -  int  -  SMALL  -  NOTNULL
